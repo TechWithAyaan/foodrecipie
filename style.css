@@ -33,6 +33,7 @@
         display: none;
 }
 .sidebar{
+    border-radius: 20px;
     width: 300px;
     /* background-color: red; */
     border: 3px solid grey;
