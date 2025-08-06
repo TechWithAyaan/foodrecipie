@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.header{
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    width: 100%;
+    /* background-color: orange; */
+    height: 80px;
+    display: flex;
+   align-items: center;
+   /* justify-content: space-between; */
+}
+.logo{
+    /* width: 10%; */
+    height: 100%;
+}
+.absou{
+    font-size: 36px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+.icons {
+
+    font-size: 36px;
+    display: flex;
+    gap: 15px; /* icons ke beech gap */
+    cursor: pointer;
+        display: none;
+}
+.sidebar{
+    width: 300px;
+    /* background-color: red; */
+    border: 3px solid grey;
+     height: 80vh;
+     position: relative;
+     top: 330px;
+     display: flex;
+     padding: 20px;
+     flex-direction: column;
+     overflow-y: scroll;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     display: none;
+}
+.star{
+    cursor: pointer;
+}
+/* desktop header work start  */
+.select{
+    width: 10%;
+    margin-left: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 5px;
+}
+.search{
+    width: 50%;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+  
+}
+.search-desk-icon{
+    right:40px;
+    cursor: pointer;
+ position: relative;
+}
+.search-desk-icon{
+    right:40px;
+    cursor: pointer;
+ position: relative;
+}
+
+.search-mo{
+    width: 90%;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+  
+}
+@media only screen and (max-width:1027px){
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.header{
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    width: 100%;
+    /* background-color: orange; */
+    height: 80px;
+    display: flex;
+   align-items: center;
+   /* justify-content: space-between; */
+}
+.logo{
+    /* width: 10%; */
+    height: 100%;
+}
+.absou{
+    font-size: 36px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+.icons {
+
+    font-size: 36px;
+    display: flex;
+    gap: 15px; /* icons ke beech gap */
+    cursor: pointer;
+        display: none;
+}
+.sidebar{
+    width: 100%;
+    /* background-color: red; */
+    border: 3px solid grey;
+     height: 80vh;
+     position: relative;
+     top: 0px;
+     display: flex;
+     padding: 20px;
+     flex-direction: column;
+     overflow-y: scroll;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     display: none;
+}
+.star{
+    cursor: pointer;
+}
+/* desktop header work start  */
+.select{
+    width: 30%;
+    margin-left: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 5px;
+}
+.search{
+    width: 50%;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+  
+}
+.search-desk-icon{
+    right:40px;
+    cursor: pointer;
+ position: relative;
+}
+.search-desk-icon{
+    right:40px;
+    cursor: pointer;
+ position: relative;
+}
+
+.search-mo{
+    width: 90%;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+  
+}   
+}
+@media only screen and (max-width:550px){
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.header{
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    width: 100%;
+    /* background-color: orange; */
+    height: 80px;
+    display: flex;
+   align-items: center;
+   /* justify-content: space-between; */
+}
+.logo{
+    /* width: 10%; */
+    height: 100%;
+}
+.absou{
+    font-size: 36px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+.icons {
+
+    font-size: 36px;
+    display: flex;
+    gap: 15px; /* icons ke beech gap */
+    cursor: pointer;
+        /* display: none; */
+}
+.sidebar{
+    width: 70%;
+    /* background-color: red; */
+    border: 3px solid grey;
+     height: 80vh;
+     position: relative;
+     top: 330px;
+     display: flex;
+     padding: 20px;
+     flex-direction: column;
+     overflow-y: scroll;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     display: none;
+}
+.star{
+    cursor: pointer;
+}
+/* desktop header work start  */
+.select{
+    width: 10%;
+    margin-left: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 5px;
+    display: none;
+}
+.search{
+    width: 50%;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+  
+}
+.search-desk-icon{
+    right:40px;
+    cursor: pointer;
+ position: relative;
+}
+.search-desk-icon{
+    right:40px;
+    cursor: pointer;
+ position: relative;
+}
+
+.search-mo{
+    width: 90%;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+  
+}
+}
+@media only screen and (max-width:350px){
+    .search{
+        display: none;
+    }
+}
